@@ -1,0 +1,52 @@
+Build started at 2026-11-14T19:44:12.597643
+Main binary: /usr/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.12.1
+Source dir: /home/kibble/Downloads/wf-dynspaces-wayfire-011
+Build dir: /home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh
+Build type: native build
+Project name: wf-dynspaces-wayfire-011-experimental
+Project version: 0.1.0
+C++ compiler for the host machine: c++ (gcc 16.2.1 "c++ (GCC) 16.2.1 20260810")
+C++ linker for the host machine: c++ ld.bfd 2.47
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+C++ compiler for the build machine: c++ (gcc 16.2.1 "c++ (GCC) 16.2.1 20260810")
+C++ linker for the build machine: c++ ld.bfd 2.47
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency wayfire for host machine found: YES 0.11.0 (cached)
+Build targets in project: 1
+
+Found ninja-1.13.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmph87rz9el
+Code:
+int i = static_cast<int>(0);
+-----------
+Command line: `c++ /tmp/tmph87rz9el/testfile.cpp -o /tmp/tmph87rz9el/output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17` -> 0
+Compiler accepts -std=c++17: YES
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh/meson-private/tmpyc8u8mu_
+Code:
+
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh/meson-private/tmpyc8u8mu_/testfile.cpp -o /home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh/meson-private/tmpyc8u8mu_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-pc-linux-gnu/16/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/x86_64-pc-linux-gnu/16/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/16/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+-----------

@@ -1,0 +1,238 @@
+Build started at 2026-11-14T19:43:23.174162
+Main binary: /usr/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.12.1
+Source dir: /home/kibble/Downloads/wf-dynspaces-wayfire-011
+Build dir: /home/kibble/Downloads/wf-dynspaces-wayfire-011/build
+Build type: native build
+Project name: wf-dynspaces-wayfire-011-experimental
+Project version: 0.1.0
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+c++ (GCC) 16.2.1 20260810
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.1 20260810
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs5Ndlf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib --version -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+-----------
+Sanity check compiler command line: c++ -o sanity_check_for_cpp.exe sanity_check_for_cpp.cpp -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine cpp compiler
+ -- Running test binary command:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/sanity_check_for_cpp.exe
+-----------
+Sanity check: `/home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/sanity_check_for_cpp.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C++ compiler for the host machine: c++ (gcc 16.2.1 "c++ (GCC) 16.2.1 20260810")
+C++ linker for the host machine: c++ ld.bfd 2.47
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+c++ (GCC) 16.2.1 20260810
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.1 20260810
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccukrIVB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib --version -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+-----------
+Sanity check compiler command line: c++ -o sanity_check_for_cpp.exe sanity_check_for_cpp.cpp -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for build machine cpp compiler
+ -- Running test binary command:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/sanity_check_for_cpp.exe
+-----------
+Sanity check: `/home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/sanity_check_for_cpp.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C++ compiler for the build machine: c++ (gcc 16.2.1 "c++ (GCC) 16.2.1 20260810")
+C++ linker for the build machine: c++ ld.bfd 2.47
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 3.0.10
+Determining dependency 'wayfire' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion wayfire` -> 0
+stdout:
+0.11.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags wayfire` -> 0
+stdout:
+-I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/elogind -I/usr/include/libdrm -I/usr/include/libevdev-1.0 -I/usr/include/libxml2
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayfire` -> 0
+stdout:
+-L/usr/lib -lpangocairo-1.0 -lpango-1.0 -lcairo -lharfbuzz -lgobject-2.0 -lglib-2.0 -lwlroots-0.20 -lwayland-server -lm -lpixman-1 -lwf-config -lGLESv2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayfire` -> 0
+stdout:
+-lpangocairo-1.0 -lpango-1.0 -lcairo -lharfbuzz -lgobject-2.0 -lglib-2.0 -lwlroots-0.20 -lwayland-server -lm -lpixman-1 -lwf-config -lGLESv2
+-----------
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpqyicj7kx
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpqyicj7kx/testfile.cpp -o /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpqyicj7kx/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpui23fcqp
+Code:
+
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpui23fcqp/testfile.cpp -o /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpui23fcqp/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-pc-linux-gnu/16/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/x86_64-pc-linux-gnu/16/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/16/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+-----------
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp0uwp7vnk
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp0uwp7vnk/testfile.cpp -o /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp0uwp7vnk/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive -lm -Wl,--allow-shlib-undefined` -> 0
+Run-time dependency wayfire found: YES 0.11.0
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp2gzhjpkj
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("version")
+          #error "Header 'version' could not be found"
+         #endif
+        #else
+         #include <version>
+        #endif
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp2gzhjpkj/testfile.cpp -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -fpermissive` -> 0
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp383ek8gy
+Code:
+
+        #include <version>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _LIBCPP_VERSION
+                _LIBCPP_VERSION;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp383ek8gy/testfile.cpp -o /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp383ek8gy/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive` -> 1
+stderr:
+/home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp383ek8gy/testfile.cpp: In function 'int main()':
+/home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmp383ek8gy/testfile.cpp:6:17: error: '_LIBCPP_VERSION' was not declared in this scope
+    6 |                 _LIBCPP_VERSION;
+      |                 ^~~~~~~~~~~~~~~
+-----------
+Running compile:
+Working directory:  /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpow0xjkio
+Code:
+
+        #include <version>
+        using _LIBCPP_VERSION;
+        int main(void) { return 0; }
+-----------
+Command line: `c++ /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpow0xjkio/testfile.cpp -o /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpow0xjkio/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fpermissive` -> 1
+stderr:
+/home/kibble/Downloads/wf-dynspaces-wayfire-011/build/meson-private/tmpow0xjkio/testfile.cpp:3:15: error: expected nested-name-specifier before '_LIBCPP_VERSION'
+    3 |         using _LIBCPP_VERSION;
+      |               ^~~~~~~~~~~~~~~
+-----------
+Build targets in project: 1
+
+Found ninja-1.13.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp232rwuzf
+Code:
+int i = static_cast<int>(0);
+-----------
+Command line: `c++ /tmp/tmp232rwuzf/testfile.cpp -o /tmp/tmp232rwuzf/output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17` -> 0
+Compiler accepts -std=c++17: YES
+
+ERROR: Clock skew detected. File /home/kibble/Downloads/wf-dynspaces-wayfire-011/build/../meson.build has a time stamp 24400.5210s in the future.

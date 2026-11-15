@@ -1,0 +1,94 @@
+[
+  {
+    "name": "dynspaces011",
+    "id": "dynspaces011@sha",
+    "type": "shared module",
+    "defined_in": "/home/kibble/Downloads/wf-dynspaces-wayfire-011/meson.build",
+    "filename": [
+      "/home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh/libdynspaces011.so"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh/libdynspaces011.so.p",
+          "-I/home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh",
+          "-I/home/kibble/Downloads/wf-dynspaces-wayfire-011",
+          "-I/usr/include/pango-1.0",
+          "-I/usr/include/cairo",
+          "-I/usr/include/libmount",
+          "-I/usr/include/blkid",
+          "-I/usr/include/fribidi",
+          "-I/usr/include/harfbuzz",
+          "-I/usr/include/freetype2",
+          "-I/usr/include/libpng16",
+          "-I/usr/include/glib-2.0",
+          "-I/usr/lib/glib-2.0/include",
+          "-I/usr/include/sysprof-6",
+          "-I/usr/include/wlroots-0.20",
+          "-I/usr/include/pixman-1",
+          "-I/usr/include/elogind",
+          "-I/usr/include/libdrm",
+          "-I/usr/include/libevdev-1.0",
+          "-I/usr/include/libxml2",
+          "-fdiagnostics-color=always",
+          "-D_GLIBCXX_ASSERTIONS=1",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-std=c++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-pthread"
+        ],
+        "sources": [
+          "/home/kibble/Downloads/wf-dynspaces-wayfire-011/dynspaces011.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "c++"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--allow-shlib-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "/usr/lib/libpangocairo-1.0.so",
+          "/usr/lib/libpango-1.0.so",
+          "/usr/lib/libcairo.so",
+          "/usr/lib/libharfbuzz.so",
+          "/usr/lib/libgobject-2.0.so",
+          "/usr/lib/libglib-2.0.so",
+          "/usr/lib/libwlroots-0.20.so",
+          "/usr/lib/libwayland-server.so",
+          "-lm",
+          "/usr/lib/libpixman-1.so",
+          "/usr/lib/libwf-config.so",
+          "/usr/lib/libGLESv2.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "wayfire"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  }
+]

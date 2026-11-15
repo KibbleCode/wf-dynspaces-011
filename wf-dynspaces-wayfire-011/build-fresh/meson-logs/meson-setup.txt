@@ -1,0 +1,15 @@
+The Meson build system
+Version: 1.12.1
+Source dir: /home/kibble/Downloads/wf-dynspaces-wayfire-011
+Build dir: /home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh
+Build type: native build
+Project name: wf-dynspaces-wayfire-011-experimental
+Project version: 0.1.0
+C++ compiler for the host machine: c++ (gcc 16.2.1 "c++ (GCC) 16.2.1 20260810")
+C++ linker for the host machine: c++ ld.bfd 2.47
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Dependency wayfire for host machine found: YES 0.11.0 (cached)
+Build targets in project: 1
+
+Found ninja-1.13.2 at /usr/bin/ninja

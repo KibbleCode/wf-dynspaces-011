@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/kibble/Downloads/wf-dynspaces-wayfire-011/build-fresh",
+    "command": "c++ -Ilibdynspaces011.so.p -I. -I.. -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/elogind -I/usr/include/libdrm -I/usr/include/libevdev-1.0 -I/usr/include/libxml2 -fdiagnostics-color=always -D_GLIBCXX_ASSERTIONS=1 -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c++17 -O0 -g -fPIC -pthread -MD -MQ libdynspaces011.so.p/dynspaces011.cpp.o -MF libdynspaces011.so.p/dynspaces011.cpp.o.d -o libdynspaces011.so.p/dynspaces011.cpp.o -c ../dynspaces011.cpp",
+    "file": "../dynspaces011.cpp",
+    "output": "libdynspaces011.so.p/dynspaces011.cpp.o"
+  }
+]
